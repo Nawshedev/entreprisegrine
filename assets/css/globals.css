@@ -1,0 +1,17 @@
+body {
+  font-family: poppins;
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+  color: #666666;
+  text-transform: capitalize;
+}
+
+a:focus,
+a:active,
+a:hover {
+  color: #0c1079;
+  font-weight: bold;
+}

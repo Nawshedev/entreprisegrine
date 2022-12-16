@@ -1,0 +1,41 @@
+section:nth-child(1) {
+  height: 100vh;
+  background-image: url("/assets/images/image1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+section:nth-child(1) div {
+  max-width: 1500px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  gap: 40px;
+}
+
+h1 {
+  font-size: 48px;
+  color: #333333;
+}
+h2 {
+  font-size: 32px;
+  color: #666666;
+}
+
+section:nth-child(1) h1,
+section:nth-child(1) h2,
+section:nth-child(1) a {
+  font-family: "poppins";
+}
+
+section:nth-child(1) a {
+  background-color: #0c1079;
+  color: white;
+  padding: 20px 30px;
+  width: 130px;
+  border-radius: 4px;
+  font-size: 16px;
+  text-align: center;
+  text-transform: initial;
+}
